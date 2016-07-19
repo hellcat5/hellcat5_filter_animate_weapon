@@ -327,30 +327,17 @@ Show
 	PlayAlertSound 6 150
 
 #************************
-# animate weapon
+# animate weapon - includes Spirit Guard Jewel and Cloak of Tawm'r Isley
 #************************
 # animate weapon - mint green background black text - melee
 Show
-	Class Dagger Claw Sword Axe Mace Staves Sceptres 
-# change below line to Rarity < Rare if you're using Cloak of Tawm'r Isley
-	Rarity < Magic
+	Class Dagger Claw Sword Axe Mace Staves Sceptres Wand Bow
+	Identified = True
 # mint green
 	SetTextColor 0 0 0
 	SetBorderColor 128 255 191
 	SetBackgroundColor 128 255 191
-	
-# animate weapon - mint green background black text - ranged (for Spirit Guards Unique Jewel)
-# NOTE: uncomment only the lines starting with Show Class Rarity SetbackgroundColor SetBorderColor SetTextColor
-# the other lines are only comments related the the lines below them
-#Show
-#	Class Dagger Wand Bow
-# change below line to Rarity < Rare if you're using Cloak of Tawm'r Isley
-#	Rarity < Magic
-# mint green
-#	SetTextColor 0 0 0
-#	SetBorderColor 128 255 191
-#	SetBackgroundColor 128 255 191
-	
+
 #************************
 # no more face
 #************************
