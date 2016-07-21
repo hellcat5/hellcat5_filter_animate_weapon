@@ -333,7 +333,6 @@ Show
 Show
 	Class Dagger Claw Sword Axe Mace Staves Sceptres Wand Bow
 	Identified = True
-# mint green
 	SetTextColor 0 0 0
 	SetBorderColor 128 255 191
 	SetBackgroundColor 128 255 191
