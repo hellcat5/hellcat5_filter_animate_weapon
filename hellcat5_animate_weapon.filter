@@ -332,10 +332,22 @@ Show
 # animate weapon - mint green background black text - melee
 Show
 	Class Dagger Claw Sword Axe Mace Staves Sceptres Wand Bow
-	Identified = True
+	Identified True
+	SetFontSize 45
 	SetTextColor 0 0 0
 	SetBorderColor 128 255 191
 	SetBackgroundColor 128 255 191
+
+#************************
+# animate weapon - includes Spirit Guard Jewel
+#************************
+# animate weapon - mint green background black text - melee
+Show
+	Class Dagger Claw Sword Axe Mace Staves Sceptres Wand Bow
+	Rarity < Magic
+	SetTextColor 0 0 0
+	SetBorderColor 83 210 146
+	SetBackgroundColor 83 210 146
 
 #************************
 # no more face
